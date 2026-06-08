@@ -11,3 +11,5 @@ let user = {
 };
 // calls the function `greetUser` with the user object as an input
 greetuser(user); // Hello Shresth, You are 21 years old.
+
+// 2. Write a function that takes a new object as input which has `name` , `age`  and `gender` and greets the user with their gender (Hi `Mr/Mrs/Others` harkirat, your age is 21)
