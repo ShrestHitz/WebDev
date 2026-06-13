@@ -83,3 +83,22 @@ function countVowels(str) {
 
 console.log(countVowels("hello")); // 2
 console.log(countVowels("javascript")); // 3
+
+/*6. Write a Function to Capitalize the First Letter of Each Word in a Sentence Write a function capitalizeWords(sentence) that takes a sentence and capitalizes the first letter of each word. You can use the toUpperCase() method of string to convert the lowercase to uppercase. */
+
+function capitalizeWords(sentence) {
+    let result = "";
+
+    for (let i = 0; i < sentence.length; i++) {
+        if (i === 0 || sentence[i - 1] === " ") {
+            result += sentence[i].toUpperCase();
+        } else {
+            result += sentence[i];
+        }
+    }
+
+    return result;
+}
+
+console.log(capitalizeWords("hello world"));
+console.log(capitalizeWords("javascript is fun"));
