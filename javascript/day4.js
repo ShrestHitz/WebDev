@@ -148,4 +148,3 @@ if(p === q && q === r){
 }else{
   console.log("Scalene triangle");
 }
-
